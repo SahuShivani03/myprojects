@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<head>
+    <style>
+        *{
+            padding:0px;
+            margin:0px;
+        }
+        .navbar{
+            display:flex;
+            padding: 20px;
+            justify-content: space-between;
+            box-shadow:0px 5px 7px -2px rgb(191,189,189) ;
+            position:fixed;
+            background-color: white;
+            z-index:100;
+            width:100%;
+        }
+        .tabgroup{
+            display:flex;
+            list-style:none;
+        }
+        .compName{
+            font-size:30px;
+            font-weight: bold;
+            margin-left: 20px;
+        }
+        .tab{
+            margin-right:20px;
+            font-size: 20px;
+        }
+        .topPart{
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height:85vh;
+        }
+        .toptext{
+font-size: 50px;
+text-align: center;
+font-weight: bold;
+padding: 40px 20px;
+width:70%
+        }
+        .button{
+            background-color: black;
+            color: white;
+            border:none;
+            font-size: 15px;
+            padding: 10px 20px;
+            border-radius:5px;
+        }
+        .button:hover{
+            font-weight: bold;
+            cursor:pointer;
+            color:black;
+background-color: #f6cd80;
+color: black;
+box-shadow:5px 5px 10px 1px gray;
+
+        }
+        .mainimagediv{
+            margin-left:300px;
+            justify-content: center;
+        }
+        .aboutdiv{
+            flex-direction: column;
+            display: flex;
+            margin:40px ;
+            padding: 20px;
+            background-color: #F6CD80;
+          
+ }
+        .aboutimage{
+            width: 40px;
+            margin:40px 0;
+           
+        }
+        .abouthead{
+            font-size: 40px;
+            font-weight: bold;
+            margin:20px 0;
+        }
+        .aboutcont{
+            font-size:20px;
+            margin:40px 0;
+        }
+        .offerdiv{
+            padding:20px;
+            text-align:center;
+        }
+        .offergroup, .offer{
+            justify-content: center;
+            display:flex;
+            align-items: center;
+            flex: column;
+            flex-direction: column;
+        }
+        .offer{
+            margin:20px;
+            text-align: center;
+        }
+        .offertitle{
+font-size: 20px;
+font-weight: bold;
+margin-bottom: 10px;
+        }
+        .offercont{
+font-size: 20px;
+        }
+        .footer{
+            display: flex;
+            margin-top: 20px;
+            padding: 20px;
+            flex-direction: column;
+        }
+        .footercol{
+            margin:20px 0;
+
+        }
+        .coltitle{
+            font-size: 25px;
+            font-weight: bold;
+            margin-bottom: 10px;
+ }
+        .coldetail{
+font-size: 18px;
+word-spacing: 10px;
+        }
+        .contactform{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+        .formlabel{
+            font-size: 18px;
+            font-weight: bold;
+            width:100%;
+        }
+        .formgroup{
+            margin: 10px;
+        }
+.forminput{
+    width:100%;
+    height:25px;
+}
+@media screen and (max-width: 600px) {
+.navbar {
+    text-align:center;
+}
+.tabgroup{
+    display:none;
+}
+.compname{
+    width:100%;
+}
+}
+    </style>
+    <title>ZeeraRam</title>
+</head>
+<body>
+    <!--navbar-->
+    <div class="navbar">
+<p class="compName"> ZeeraRam</p>
+<ul class="tabgroup">
+    <a class="tablink"> <li class="tab"> Home</li></a>
+    <a class="tablink"> <li class="tab"> About</li></a>
+    <a class="tablink"> <li class="tab"> Services</li> </a>
+    <a class="tablink"><li class="tab">   Contact</li> </a>
+</ul>
+    </div>
+    <!--top port-->
+    <div class="topPart">
+<p class="toptext">
+    Bring People Together With Great Food</p>
+<button class="button"> let's talk</button>
+    </div>
+    <div class="mainimagediv"> 
+<img class="mainimage" src=" https://calhum.org/wp-content/uploads/2020/10/Canva-People-around-a-Table-With-Food-by-August-de-Richelieu-660x330.jpg"/>
+    </div>
+    <!--about section-->
+    <div class="aboutdiv">
+<div class="aboutcontdiv">
+<p class="abouthead">  delicious food creats good memories</p>
+<p class="aboutcont"> zeeraram is food studio tht works for their customer.
+     it not only provide  for food catering but also for 
+     best services given to alredy ragistered customers, whatever the occasion 
+     is and whatever food you recommend, we are always there</p>
+<button class="button" > Our Story</button>
+</div>
+<div class="aboutimagediv">
+<img src="https://eadn-wc05-5516459.nxedge.io/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2020/02/s-o-c-i-a-l-c-u-t-1332804-unsplash-e1637149263181.png.webp "/>
+</div>
+    </div>
+    <!--offer section-->
+    <div class="offerdiv">
+<p class="abouthead"> Our offers for your occassion or events </p>
+<div class="offergroup">
+    <div class=" offer">
+        <p class="offertitle"> Mini Pizza</p>
+        <p class="offrcont"> delectable and bite sized, mini pizza are favourite of all age group</p>
+         </div> 
+         <div class=" offer">
+            <p class="offertitle"> Mini Pizza</p>
+            <p class="offrcont"> delectable and bite sized, mini pizza are favourite of all age group</p>
+             </div> 
+             <div class=" offer">
+                <p class="offertitle"> Mini Pizza</p>
+                <p class="offrcont"> delectable and bite sized, mini pizza are favourite of all age group</p>
+                 </div> 
+                 <div class=" offer">
+                    <p class="offertitle"> Mini Pizza</p>
+                    <p class="offrcont"> delectable and bite sized, mini pizza are favourite of all age group</p>
+                     </div> 
+                    </div>
+    </div>
+    <!--more.....-->
+<div class="mainimagediv">
+<img class="mainimage" src="https://images.squarespace-cdn.com/content/v1/5c2ece7336099bc7e0835384/1598392797367-3JNM6MEMESXA3GEGJ4JW/pexels-daria-shevtsova-4117545.jpg?format=1000w"/>
+</div>
+<div class="aboutdiv">
+    <div class="aboutcontdiv">
+    <p class="abouthead"> Our Services</p>
+    <p class="aboutcont"> Here at ZeerRam , we pride ourselves from never turning 
+        down a client that means wharever occassion  is we are always there to food any number of guest</p>
+    <button class="button" > Read Our Services</button>
+    </div>
+    <div class="aboutimagediv">
+    <img src=" https://images.unsplash.com/photo-1519202270721-a737823482cc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=434&q=80 "/>
+    </div>
+        </div>
+        <!--footer-->
+<div class="footer"> 
+<div class=" footercol">
+<p class="coltitle">  ZeeraRam Catering</p>
+<p class="coldetail"> we are a catering bussiness
+     serving the greater chicago area and making sure your
+      event is remembered for all the delicious food</p>
+</div>
+</div>
+<div >
+    <div class="footercol">
+         <p class="coltitle">Connect with us </p>
+        <form class="contactform"> 
+            <div class="formgroup">
+                <label class="formlabel"> Name</label> 
+                <input class="forminput" type="text" id="name">
+                
+            </div>
+            <div class="formgroup">
+                <label class="formlabel"> Email</label> 
+                <input class="forminput" type="text" id="email">
+                
+            </div>
+            <div class="formgroup">
+                <label class="formlabel"> Contact </label> 
+                <input class="forminput" type="text" id="num">
+                
+            </div>
+         <div class="formgroup">
+<input class="button" type="submit" value="submit">
+         </div>
+         <div class="footercol">
+             <p class="coltitle"> contact us</p>
+<p class="coldetail"> zeeraram@gmail.com <br> 9866227373</p>
+         </div>
+        </form>
+        </div>
+
+</div>
+</body>
+</html>
